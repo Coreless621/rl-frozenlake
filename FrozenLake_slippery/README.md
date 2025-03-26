@@ -29,3 +29,8 @@ The goal is to teach an agent to navigate across a frozen lake without falling i
 - `main.py`    | Trains the Q-learning agent on the slippery FrozenLake environment and saves the learned Q-table (`q_values.npy`) 
 - `testing.py` | Loads the saved Q-table and runs 10 evaluation episodes using the greedy policy 
 - `q_values.npy` | (Auto-generated) The learned Q-table as a NumPy array 
+
+## Note
+
+  In this example I used tqdm to create a training progress bar. It is completely optional and not needed to train your agent.
+  It is just nice to see progress going, although here training is typically fast.
