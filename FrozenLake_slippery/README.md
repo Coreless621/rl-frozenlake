@@ -5,37 +5,26 @@ The goal is to teach an agent to navigate across a frozen lake without falling i
 
 ---
 
-## ❄️ Environment Setup
+## 📌 Project Overview
 
-- **Environment:** `FrozenLake-v1`
-- **Map:** `4x4`
-- **Slippery:** `True` (stochastic transitions)
-- **Observation space:** 16 discrete states
-- **Action space:** 4 discrete actions (left, down, right, up)
-
----
-
-## 🧠 Algorithm
-
-- **Type:** Tabular Q-learning
-- **Exploration:** Epsilon-greedy with exponential decay
-- **Updates:** Bellman equation-based Q-value updates
-- **Goal:** Maximize expected cumulative reward
+- **Environment:** `FrozenLake-v1` (4x4 grid, non-slippery)
+- **Algorithm:** Tabular Q-learning
+- **Training:** Epsilon-greedy exploration with exponential decay
+- **Evaluation:** Agent tested over 10 episodes
 
 ---
 
-## ⚙️ Hyperparameters
+## 🎯 Objectives
 
-- Learning rate   | `alpha = 0.8` 
-- Discount factor | `gamma = 0.99` 
--Initial epsilon | `1.0` 
-- Min epsilon     | `0.1` 
-- Epsilon decay   | `0.99992` 
-- Episodes        | `30,000` 
+- Learn to apply Q-learning on discrete environments
+- Understand Q-table updates via the Bellman equation
+- Balance exploration and exploitation using epsilon decay
+- Use `gymnasium` for training and evaluation
+- Understand the influence of stochasticity on training
 
 ---
 
-## 📂 Project Structure
+## 📂 Files
 
 - `main.py`    | Trains the Q-learning agent on the slippery FrozenLake environment and saves the learned Q-table (`q_values.npy`) 
 - `testing.py` | Loads the saved Q-table and runs 10 evaluation episodes using the greedy policy 
