@@ -27,10 +27,10 @@ It demonstrates how tabular reinforcement learning can be applied to a discrete 
 
 ## 📁 Files
 
- `main.py`    | Trains the Q-learning agent and saves the resulting Q-table 
- `testing.py` | Loads the saved Q-table and evaluates the agent over multiple episodes, recording videos 
- `q_values.npy` | (auto-generated) Saved Q-table in NumPy format 
- `FrozenLake-agent/` | (auto-generated) Contains recorded videos of the agent in action 
+ - `main.py`    | Trains the Q-learning agent and saves the resulting Q-table 
+ - `testing.py` | Loads the saved Q-table and evaluates the agent over multiple episodes, recording videos 
+ - `q_values.npy` | (auto-generated) Saved Q-table in NumPy format 
+ - `FrozenLake-agent/` | (auto-generated) Contains recorded videos of the agent in action 
 
 ---
 
