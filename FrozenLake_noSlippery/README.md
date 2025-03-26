@@ -1,6 +1,6 @@
 # ❄️ FrozenLake Q-Learning Agent
 
-This project implements a simple **Q-learning agent** for the classic `FrozenLake-v1` environment from the Gymnasium toolkit.  
+This project implements a simple **Q-learning agent** for the classic `FrozenLake-v1` environment from [Gymnasium](https://gymnasium.farama.org/).  
 It demonstrates how tabular reinforcement learning can be applied to a discrete gridworld problem.
 
 ---
