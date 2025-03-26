@@ -34,4 +34,7 @@ It demonstrates how tabular reinforcement learning can be applied to a discrete 
 
 ---
 
+## Note
 
+ In this example, I used a gymnasium wrapper `RecordVideo` to record my agent and tqdm to create a training progress bar.
+ Both are optional and can be removed if wanted.
